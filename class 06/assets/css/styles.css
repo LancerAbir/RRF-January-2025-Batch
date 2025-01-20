@@ -158,11 +158,104 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 20px;
 }
 
+/* Services CSS */
 
+.scction-title h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fb8133;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
 
+.scction-title h2 {
+    font-size: 30px;
+    line-height: 36px;
+    color: #172541;
+    margin-bottom: 15px;
+}
 
+.scction-title {
+    color: #565872;
+    font-size: 15px;
+    line-height: 30px;
+    max-width: 700px;
+    margin-bottom: 50px;
+}
 
+.scction-title h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fb8133;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
 
+.scction-title h2 {
+    font-size: 30px;
+    line-height: 36px;
+    color: #172541;
+    margin-bottom: 15px;
+}
+
+.scction-title {
+    color: #565872;
+    font-size: 15px;
+    line-height: 30px;
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+
+.service-icon {
+    margin: 0px auto;
+    max-width: 80px;
+    height: 80px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.service-icon svg {
+    padding: 15px;
+    color: #fff;
+}
+
+.single-service-item h3 {
+    color: #172541;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.single-service-item {
+    font-size: 15px;
+    line-height: 30px;
+    color: #565872;
+    padding: 40px 20px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    max-width: 350px;
+    transition-delay: .3s;
+}
+
+.single-service-box {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.single-service-item:hover .service-icon {
+    background-color: #fb8133
+}
+
+.single-service-item:hover  {
+    box-shadow: 0 0 15px 3px #ddd;
+}
 
 
 
