@@ -258,6 +258,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
+.single-service-box {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
 .single-service-item {
     font-size: 15px;
     line-height: 30px;
@@ -272,7 +278,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .single-service-box {
     display: flex;
-    gap: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
