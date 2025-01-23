@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", serif;
+    line-height: 31px;
+    color: #6c757d;    ;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 700;
+    color: #313435;
+}
+
+
+/* CTA Section CSS */
+
+.cta-inner-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta-content {
+    width: 45%;
+    font-size: 18px;
+    padding-right: 45px;
+}
+
+.cta-box-flex {
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.single-cta-box {width: 50%;padding-right: 15px;padding-left: 15px;margin-bottom: 30px;}
+
+.cta-content h4 {
+    font-family: 'Inter';
+    text-transform: uppercase;
+    color: #6c757d;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cta-content h2 {
+    font-size: 53px;
+    line-height: 63px;
+    margin-bottom: 35px;
+}
+
+
+.cta-content p {
+    margin-bottom: 25px;
+}
+
+.cta-content ul li {
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.cta-icon {
+    max-width: 80px;
+    max-height: 80px;
+    padding: 15px;
+    background-color: #ebe6e67a;
+    border-radius: 80% 35% 104% 35%;
+}
+
+.cta-icon svg {
+    color: #5d74f2;
+}
+
+.single-cta-box-inner h3 {
+    font-size: 23px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.single-cta-box-inner {
+    font-size: 18px;
+    padding: 33px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 10px 1px #dddddd;
+    background-color: #fff;
+}
+
+
+section.cta {
+    position: relative;
+    z-index: 99;
+    padding: 100px 0;
+}
+
+section.cta:after {
+    position: absolute;
+    right: 0;
+    top: 17%;
+    height: 62%;
+    width: 47%;
+    content: "";
+    background-color: #eae9f3bd;
+    z-index: -1;
+}
