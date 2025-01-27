@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* Base CSS */
+
 h1, h2, h3, h4, h5, h6 {
     /* font-family: 'Poppins', sans-serif; */
     font-weight: 700;
@@ -14,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 img {
     max-width: 100%;
     height: auto;
+    background-color: #ddd;
 }
 
 a {
@@ -23,10 +26,12 @@ a {
 
 body {
     font-family: "IBM Plex Sans", serif;
+    line-height: 1.6;
+    background-color: #f7f7fa;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -44,6 +49,10 @@ body {
 
 
 /* Header CSS */
+section.header {
+    background-color: #fff;
+}
+
 .header-flex {
     display: flex;
     justify-content: space-between;
@@ -113,7 +122,269 @@ body {
     color: #fff;
 }
 
+/* Hero CSS */
 
+section.hero {
+    padding-top: 50px;
+}
+
+.hero-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    line-height: 77px;
+    color: #001329;
+    margin-bottom: 50px;
+}
+
+.hero-content h1 span {
+    color: #071bf5;
+}
+
+.hero-content h3 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #394959;
+    margin-bottom: 50px;
+}
+
+.theme-btn a svg {
+    width: 20px;
+    margin-left: 16px;
+}
+
+.theme-btn a {
+    padding: 15px 25px;
+    color: #fff;
+    background-color: #071bf5;
+    display: inline-flex;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #071bf5;
+    transition: .3s;
+}
+
+.theme-btn a:hover {
+    color: #071bf5;
+    background-color: #fff;
+    border: 1px solid;
+}
+
+section.hero .container {
+    border-bottom: 1px solid #cccccf;
+}
+
+.hero-img img {width: 550px;float: right;height: 750px;}
+
+.hero-content {
+    width: 50%;
+}
+
+/* CTA CSS */
+
+.cta-area {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cta-area h2 {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #031429;
+    margin-bottom: 50px;
+}
+
+section.cta {
+    padding: 140px 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.single-cta {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #031429;
+}
+
+.single-cta h4 {
+    font-size: 28px;
+    line-height: 39px;
+    font-weight: 600;
+}
+
+
+/* Drag And Drop CSS */
+
+.cta-area {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cta-area h2 {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #031429;
+    margin-bottom: 50px;
+}
+
+section.cta {
+    padding: 140px 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.single-cta {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #031429;
+}
+
+.single-cta h4 {
+    font-size: 28px;
+    line-height: 39px;
+    font-weight: 600;
+}
+
+.drag-flex {
+    background-color: #e9ecf7;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 80px; */
+}
+
+section.drag {
+    margin-bottom: 150px;
+}
+
+.drag-img {padding-top: 100px;}
+
+.drag-logo svg {
+    margin-bottom: 20px;
+}
+
+.drag-content h2 {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.drag-content {
+    width: 50%;
+}
+
+.drag-text h5 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.drag-text {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #11273b;
+    margin-bottom: 20px;
+}
+
+.drag-content .flex {
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+.single-drag h4 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.single-drag {
+    width: 180px;
+}
+
+.drag-img img {
+    width: 500px;
+    height: 700px;
+    float: left;
+    border-radius: 0 0 0 30px;
+}
+
+/* Drag And Drop CSS Style 2 */
+
+.style-2 .drag-img {
+    order: 2;
+}
+
+.style-2 .drag-content {
+    margin-left: 80px;
+}
+
+.style-2 .drag-img img {
+    border-radius: 0 0 30px 0;
+}
+
+/* Cookie CSS */
+
+.cookie-alert {
+    position: fixed;
+    bottom: 4%;
+    left: 4%;
+    background-color: #fff;
+    width: 331px;
+    box-shadow: 0px 0px 5px 3px #00000024;
+    padding: 15px;
+    font-size: 80%;
+}
+
+.cookie-alert a {
+    color: #1b1ff5;
+}
+
+.cookie-alert a.border-btn {
+    border: 1px solid;
+    padding: 3px 8px;
+    border-radius: 4px;
+    transition: .3s;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.cookie-alert a.border-btn:hover {
+    background-color: #1b1ff5;
+    color: #fff;
+    border: 1px solid #1b1ff5;
+    border-radius: 4px;
+}
 
 
 
